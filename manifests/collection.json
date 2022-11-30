@@ -1,0 +1,13 @@
+{
+  "id" : "https://thorleifr.github.io/format/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in thorleifr/format project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://thorleifr.github.io/format/manifests/1manifest.json",
+    "label" : "[Click to edit label]"
+  } ]
+}
