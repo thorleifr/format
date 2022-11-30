@@ -1,0 +1,221 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://thorleifr.github.io/format/manifests/2manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "collectionBizarre",
+  "metadata" : [ ],
+  "description" : {
+    "@value" : "description bizarre",
+    "@language" : "fr"
+  },
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "",
+  "sequences" : [ {
+    "@id" : "http://1377d4c7-e2e8-4ef1-85d5-de5c5421b767",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "https://archives-deux-sevres-vienne.fr/ark:/28387/vta563c56f414a055ae/canvas/0/2",
+      "@type" : "sc:Canvas",
+      "label" : "8 septembre 1944-30 décembre 1945",
+      "width" : 3388,
+      "height" : 3388,
+      "rendering" : [ {
+        "@id" : "https://archives-deux-sevres-vienne.fr/cgi-bin/iipsrv.fcgi?PY=1&FIF=%2Fhome%2Fhttpd%2Fad7986%2Fdiffusion%2Fprod%2Fapp%2Fwebroot%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD086%2FJX%2FFRAD086_348JX_00428%2FFRAD086_348JX_00428_0002.jpg&HEI=800&CVT=JPG",
+        "label" : "Télécharger le document courant",
+        "format" : "image/jpg"
+      }, {
+        "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD086%2FJX%2FFRAD086_348JX_00428%2FFRAD086_348JX_00428_0002.jpg",
+        "label" : "Télécharger le document original",
+        "format" : "image/jpg"
+      } ],
+      "ligeoPermalink" : "https://archives-deux-sevres-vienne.fr/ark:/28387/vta563c56f414a055ae/daogrp/0/2",
+      "thumbnail" : "https://archives-deux-sevres-vienne.fr/cgi-bin/iipsrv.fcgi?FIF=%2Fhome%2Fhttpd%2Fad7986%2Fdiffusion%2Fprod%2Fapp%2Fwebroot%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD086%2FJX%2FFRAD086_348JX_00428%2FFRAD086_348JX_00428_0002.jpg&PY=1&HEI=80&QLT=80&CVT=JPG&SIZE=0&MTIME=0",
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD086%2FJX%2FFRAD086_348JX_00428%2FFRAD086_348JX_00428_0002.jpg",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD086%2FJX%2FFRAD086_348JX_00428%2FFRAD086_348JX_00428_0002.jpg",
+          "@type" : "dctypes:Image",
+          "service" : {
+            "@context" : "https://iiif.io/api/image/2/context.json",
+            "@id" : "https://archives-deux-sevres-vienne.fr/iiif/FRAD086/JX/FRAD086_348JX_00428/FRAD086_348JX_00428_0002.jpg",
+            "profile" : "https://iiif.io/api/image/2/level1.json"
+          },
+          "format" : "image/jpeg",
+          "width" : 3447,
+          "height" : 3447
+        },
+        "on" : "https://archives-deux-sevres-vienne.fr/ark:/28387/vta563c56f414a055ae/canvas/0/2"
+      } ],
+      "ligeoRestrictedAccess" : false,
+      "ligeoIsSearchable" : false,
+      "ligeoClasseur" : {
+        "strImageBase" : "FRAD086_348JX_00428_0002",
+        "strImageDir" : "images/FRAD086/JX/FRAD086_348JX_00428",
+        "curTag" : "daogrp",
+        "curTagnum" : 0,
+        "notice_id" : "119747",
+        "ark" : "/ark:/28387/vta563c56f414a055ae",
+        "unitid" : "348 JX 428",
+        "eadid" : "FRAD086_JX"
+      },
+      "ligeoMediaPath" : "/home/httpd/ad7986/diffusion/prod/app/webroot/data/files/ad7986.diffusion/images/FRAD086/JX/FRAD086_348JX_00428/FRAD086_348JX_00428_0002.jpg",
+      "related" : {
+        "@id" : "https://archives-deux-sevres-vienne.fr/ark:/28387/vta563c56f414a055ae/manifest",
+        "label" : "La Nouvelle République du Centre-Ouest :  8 septembre 1944-30 décembre 1945",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://by2022.adaptcentre.ie/iiif/v1/160821/canvas/p63063",
+      "@type" : "sc:Canvas",
+      "label" : "DCLA Royal Charters/41",
+      "metadata" : [ {
+        "label" : "Title",
+        "value" : "INSPEXIMUS of a record of the K’s bench 13 Edw II Edmund Walter v Robert and William Bagot, concerning possession of land in The Rath: it was judged that the matter should be settled in the City Court of Dublin"
+      }, {
+        "label" : "ReferenceCode",
+        "value" : "DCLA Royal Charters/41"
+      }, {
+        "label" : "Scope And Content",
+        "value" : "This item is calendared as follows in CIRCLE: A Calendar of Irish Chancery Letters, c. 1244–1509, edited by Peter Crooks et al.:\nPatent Roll, 4 Richard II, no. 10\nINSPEXIMUS of a record of the [common] bench of the K. in 13 Edw. II [1319–20] of a plea arraigned by Edmund Walter against Robert and William Bagot concerning possession of land in le Rath. It was adjudged that the matter should be settled in the court of the city of Dublin."
+      }, {
+        "label" : "Created",
+        "value" : "14/03/1381"
+      }, {
+        "label" : "Content Date",
+        "value" : "4 Ric II"
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://by2022.adaptcentre.ie/loris/DCA_Charter_41.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://by2022.adaptcentre.ie/loris/DCA_Charter_41.jpg",
+            "profile" : "http://iiif.io/api/image/2/level2.json",
+            "protocol" : "http://iiif.io/api/image"
+          },
+          "format" : "image/jpeg",
+          "width" : 2392,
+          "height" : 2140
+        },
+        "on" : "https://by2022.adaptcentre.ie/iiif/v1/160821/canvas/p63063"
+      } ],
+      "otherContent" : [ ],
+      "width" : 2392,
+      "height" : 2140,
+      "related" : {
+        "@id" : "https://by2022.adaptcentre.ie/iiif/v1/160828/manifest",
+        "label" : "INSPEXIMUS of a record of the K’s bench 13 Edw II Edmund Walter v Robert and William Bagot, concerning possession of land in The Rath: it was judged that the matter should be settled in the City Court of Dublin",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://by2022.adaptcentre.ie/iiif/v1/160821/canvas/p63065",
+      "@type" : "sc:Canvas",
+      "label" : "DCLA Royal Charters/41",
+      "metadata" : [ {
+        "label" : "Title",
+        "value" : "INSPEXIMUS of a record of the K’s bench 13 Edw II Edmund Walter v Robert and William Bagot, concerning possession of land in The Rath: it was judged that the matter should be settled in the City Court of Dublin"
+      }, {
+        "label" : "ReferenceCode",
+        "value" : "DCLA Royal Charters/41"
+      }, {
+        "label" : "Scope And Content",
+        "value" : "This item is calendared as follows in CIRCLE: A Calendar of Irish Chancery Letters, c. 1244–1509, edited by Peter Crooks et al.:\nPatent Roll, 4 Richard II, no. 10\nINSPEXIMUS of a record of the [common] bench of the K. in 13 Edw. II [1319–20] of a plea arraigned by Edmund Walter against Robert and William Bagot concerning possession of land in le Rath. It was adjudged that the matter should be settled in the court of the city of Dublin."
+      }, {
+        "label" : "Created",
+        "value" : "14/03/1381"
+      }, {
+        "label" : "Content Date",
+        "value" : "4 Ric II"
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://by2022.adaptcentre.ie/loris/DCA_Charter_41_seal_reverse.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://by2022.adaptcentre.ie/loris/DCA_Charter_41_seal_reverse.jpg",
+            "profile" : "http://iiif.io/api/image/2/level2.json",
+            "protocol" : "http://iiif.io/api/image"
+          },
+          "format" : "image/jpeg",
+          "width" : 3676,
+          "height" : 2658
+        },
+        "on" : "https://by2022.adaptcentre.ie/iiif/v1/160821/canvas/p63065"
+      } ],
+      "otherContent" : [ ],
+      "width" : 3676,
+      "height" : 2658,
+      "related" : {
+        "@id" : "https://by2022.adaptcentre.ie/iiif/v1/160828/manifest",
+        "label" : "INSPEXIMUS of a record of the K’s bench 13 Edw II Edmund Walter v Robert and William Bagot, concerning possession of land in The Rath: it was judged that the matter should be settled in the City Court of Dublin",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://archives-deux-sevres-vienne.fr/ark:/28387/vta563c56f414a055ae/canvas/0/4",
+      "@type" : "sc:Canvas",
+      "label" : "8 septembre 1944-30 décembre 1945",
+      "width" : "1258",
+      "height" : 3388,
+      "rendering" : [ {
+        "@id" : "https://archives-deux-sevres-vienne.fr/cgi-bin/iipsrv.fcgi?PY=1&FIF=%2Fhome%2Fhttpd%2Fad7986%2Fdiffusion%2Fprod%2Fapp%2Fwebroot%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD086%2FJX%2FFRAD086_348JX_00428%2FFRAD086_348JX_00428_0004.jpg&HEI=800&CVT=JPG",
+        "label" : "Télécharger le document courant",
+        "format" : "image/jpg"
+      }, {
+        "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD086%2FJX%2FFRAD086_348JX_00428%2FFRAD086_348JX_00428_0004.jpg",
+        "label" : "Télécharger le document original",
+        "format" : "image/jpg"
+      } ],
+      "ligeoPermalink" : "https://archives-deux-sevres-vienne.fr/ark:/28387/vta563c56f414a055ae/daogrp/0/4",
+      "thumbnail" : "https://archives-deux-sevres-vienne.fr/cgi-bin/iipsrv.fcgi?FIF=%2Fhome%2Fhttpd%2Fad7986%2Fdiffusion%2Fprod%2Fapp%2Fwebroot%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD086%2FJX%2FFRAD086_348JX_00428%2FFRAD086_348JX_00428_0004.jpg&PY=1&HEI=80&QLT=80&CVT=JPG&SIZE=0&MTIME=0",
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD086%2FJX%2FFRAD086_348JX_00428%2FFRAD086_348JX_00428_0004.jpg",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD086%2FJX%2FFRAD086_348JX_00428%2FFRAD086_348JX_00428_0004.jpg",
+          "@type" : "dctypes:Image",
+          "service" : {
+            "@context" : "https://iiif.io/api/image/2/context.json",
+            "@id" : "https://archives-deux-sevres-vienne.fr/iiif/FRAD086/JX/FRAD086_348JX_00428/FRAD086_348JX_00428_0004.jpg",
+            "profile" : "https://iiif.io/api/image/2/level1.json"
+          },
+          "format" : "image/jpeg",
+          "width" : 3433,
+          "height" : 3433
+        },
+        "on" : "https://archives-deux-sevres-vienne.fr/ark:/28387/vta563c56f414a055ae/canvas/0/4"
+      } ],
+      "ligeoRestrictedAccess" : false,
+      "ligeoIsSearchable" : false,
+      "ligeoClasseur" : {
+        "strImageBase" : "FRAD086_348JX_00428_0004",
+        "strImageDir" : "images/FRAD086/JX/FRAD086_348JX_00428",
+        "curTag" : "daogrp",
+        "curTagnum" : 0,
+        "notice_id" : "119747",
+        "ark" : "/ark:/28387/vta563c56f414a055ae",
+        "unitid" : "348 JX 428",
+        "eadid" : "FRAD086_JX"
+      },
+      "ligeoMediaPath" : "/home/httpd/ad7986/diffusion/prod/app/webroot/data/files/ad7986.diffusion/images/FRAD086/JX/FRAD086_348JX_00428/FRAD086_348JX_00428_0004.jpg",
+      "related" : {
+        "@id" : "https://archives-deux-sevres-vienne.fr/ark:/28387/vta563c56f414a055ae/manifest",
+        "label" : "La Nouvelle République du Centre-Ouest :  8 septembre 1944-30 décembre 1945",
+        "format" : ""
+      }
+    } ]
+  } ],
+  "structures" : [ ]
+}
