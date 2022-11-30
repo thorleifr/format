@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://thorleifr.github.io/format/manifests/1manifest.json",
     "label" : "[Click to edit label]"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://thorleifr.github.io/format/manifests/2manifest.json",
+    "label" : "collectionBizarre"
   } ]
 }
