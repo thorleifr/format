@@ -3,6 +3,11 @@
   "@id" : "https://thorleifr.github.io/format/manifests/2manifest.json",
   "@type" : "sc:Manifest",
   "label" : "collectionBizarre",
+  "service": {
+    "profile": "http://iiif.io/api/search/0/search",
+    "@id": "https://demos-dev.biblissima.fr/simpleAnnotationStore/search-api/manifests/search",
+    "@context": "http://iiif.io/api/search/0/context.json"
+},
   "metadata" : [ ],
   "description" : {
     "@value" : "description bizarre",
